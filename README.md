@@ -47,27 +47,6 @@ python -m http.server 5500
 - Outlier removal & feature scaling
 - The trained model is saved using pickle and loaded in the Flask API.
 
-# Project Structure
-
-Real Estate Price Prediction
-│── client (Frontend - HTML, CSS, JS)
-│   │── app.html
-│   │── app.js
-│   │── app.css
-│
-│── server (Backend - Flask API)
-│   │── server.py
-│   │── util.py
-│   │── artifacts
-│   │   ├── columns.json
-│   │   ├── banglore_home_prices_model.pickle
-│
-│── dataset
-│   │── bengaluru_house_prices.csv
-│
-│── README.md
-│── requirements.txt
-
 # Future Enhancements
 - Deploy on Heroku or AWS
 - Add more features such as balconies, parking, age of house
