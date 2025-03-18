@@ -24,22 +24,13 @@ It allows users to predict house prices based on:
 
 # Step 1: Clone the Repository
 git clone https://github.com/AbhinavS-30/Real-Estate-Price-Prediction.git
-cd Real-Estate-Price-Prediction
 
-# Step 2: Install Dependencies
-pip install -r requirements.txt
-
-# Step 3: Start the Backend Server
+# Step 2: Start the Backend Server (Run in server)
 python server/server.py
-# If successful, you should see:
-# Starting Flask Server for Home Price Prediction...
-# * Running on http://127.0.0.1:5000/
 
-# Step 4: Start the Frontend
-# Option 1: Using Python’s HTTP Server
-cd client
+# Step 3: Start the Frontend (Run in client)
 python -m http.server 5500
-# Then open: http://127.0.0.1:5500/app.html
+# Then open: http://127.0.0.1:5500/app.html in browser
 
 # Features
 - Predict House Prices using Machine Learning
